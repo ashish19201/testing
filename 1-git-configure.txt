@@ -1,0 +1,11 @@
+git config user.name "ashish"     --> to set
+git config user.email "ashishexample.com"     --> to  email
+
+git config user.name              --> to preview
+
+git config --global user.name "ashish"     --> to set globally
+
+
+
+git log ------------>to see the alllogs
+git log --oneline --> to see the logs but only one line per message
