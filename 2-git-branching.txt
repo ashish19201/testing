@@ -1,7 +1,8 @@
 git branch     -->>use this to see all the bracnches and an * is shown on the current working branch in the list
 git branch  <branchname>   ->> use this command to create a new branch
 git switch <branchname>     -> use to switch between branches
-
+git switch -d <branchname>  ->use this to delete a branch
+git switch -D <branchname>  ->use this to delete a branch forcefully
 
 
 
@@ -28,3 +29,4 @@ git switch <branchname>     -> use to switch between branches
 
 ##################################   examples ################################
 i am make a change that does't reflect on lear two and master
+sime changes to see the git local changes warning during a checkout
