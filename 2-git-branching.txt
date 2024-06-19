@@ -1,0 +1,3 @@
+git branch     -->>use this to see all the bracnches and an * is shown on the current working branch in the list
+git branch  <branchname>   ->> use this command to create a new branch
+git switch <branchname>     -> use to switch between branches
