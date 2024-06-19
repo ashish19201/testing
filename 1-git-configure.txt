@@ -9,3 +9,6 @@ git config --global user.name "ashish"     --> to set globally
 
 git log ------------>to see the alllogs
 git log --oneline --> to see the logs but only one line per message
+
+
+git commit --amend   ->suppose we ccomiited and we orget to add a file then we use this command to staged the changes to last commit
