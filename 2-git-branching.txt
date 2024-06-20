@@ -4,6 +4,7 @@ git switch <branchname>     -> use to switch between branches
 git switch -d <branchname>  ->use this to delete a branch
 git switch -D <branchname>  ->use this to delete a branch forcefully
 
+git branch -m <branchname>   ->use this to rename a branch and make sure you are on the working branch
 
 
 
