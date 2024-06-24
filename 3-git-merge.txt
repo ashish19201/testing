@@ -3,3 +3,9 @@ in this we learn to merge with fast->fordward merging technique
 step-1-> we have to go to the receiving branch
 
 git merge <branchname>
+
+
+there is a recursive approach also 
+
+suppose on master we have do 2 commits  and in another we also do 2 commits both 2 commits are unkonown to other branch then if we do
+git merge <branchname>   -> then anew commit automatically add to the receiving branch by  the git and merging take  place
