@@ -1,9 +1,6 @@
- git diff ---> use this to compares staging area  and working directory
-
-
-
-
-
+ git diff        ---> use this to compares staging area  and working directory
+ git diff HEAD   --> all changes since the last commit that are staged means add
+ git diff --staged    -->> will list the changesbeetween staging area and our last commit 
 
 
  ################ learning material ################### 
