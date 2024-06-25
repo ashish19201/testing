@@ -1,6 +1,18 @@
  git diff        ---> use this to compares staging area  and working directory
  git diff HEAD   --> all changes since the last commit that are staged means add
- git diff --staged    -->> will list the changesbeetween staging area and our last commit 
+ git diff --staged    -->> will list the changes beetween staging area and our last commit 
+ staging area means the files which are add.
+
+
+ git diff HEAD <filename>     -> use these commands to specify a file
+ git diff --staged <filename>
+
+
+git diff master..ranaming-branch  ->use this see the diffrences of between two branches make sure the orders in the exampole
+command we see the changes master to renaming-branch
+
+
+git diff commit1..commit2 -> to see change sbetween two comits
 
 
  ################ learning material ################### 

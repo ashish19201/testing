@@ -1,0 +1,10 @@
+if we are on a branch and switch b/w the two branches the we have to either commit the resilt or we have to stash the changes
+
+there hapeen two possible scenarios 
+1->the changes reflect on the main branch(main->where we are going to switch)
+2->git stops us and tell please commit the result
+
+
+git stash     -->stash them locally  on working copy
+
+
