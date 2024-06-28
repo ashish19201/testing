@@ -1,0 +1,18 @@
+git checkout <branchname or commithash>   ->> we can checkout to a previosuly do commit by using checkout 
+
+and when we checkout to a particular commit, head points  to that commit rather than branchpointer this is called detech head
+
+if we are on a particular branch and wantto move on the latest commit then
+we use 
+
+git switch <branchname>  
+
+we can use
+git checkout HEAD~1
+this means head-1 refers to the one commit before head 
+
+
+git checkout HEAD <flename> || git checkout -- <flename> 
+
+by the abvoe command -> suppose we made some changes on a file but don;t want to keep them 
+to revert the file back to whatever it is used when you lat committed,you can.use

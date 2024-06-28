@@ -10,8 +10,9 @@ git stash     -->stash them locally  on working copy
 git stash pop
 git staash apply --> use these  commands to adding bace
 git stash list -> to list all the stashes in the directory
-
+git stash drop 0   -> to drop or delete a stash from the stashed directory
 
 Remember and note that stash move and keep changes only of staged files not the newly create file that is only in working directory
 
 ################# here are new changes#######
+let stash them and add them
