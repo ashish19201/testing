@@ -1,0 +1,57 @@
+git checkout <branchname or commithash>   ->> we can checkout to a previosuly do commit by using checkout 
+
+and when we checkout to a particular commit, head points  to that commit rather than branchpointer this is called detech head
+
+if we are on a particular branch and wantto move on the latest commit then
+we use 
+
+git switch <branchname>  
+
+we can use
+git checkout HEAD~1
+this means head-1 refers to the one commit before head 
+
+
+git checkout HEAD <flename> || git checkout -- <flename>   -->>this works well
+git restore <filename>  || git restore --source HEAD~3 <filename1,filename2>  -> 
+
+this is a new command we can use it to restore that we do with the above command
+and also we can restore our file over specific to previous commits .
+
+by the abvoe command -> suppose we made some changes on a file but don;t want to keep them 
+to revert the file back to whatever it is used when you lat committed,you can.use
+
+
+
+############################################# restore staged changes##################################33
+
+suppose we add some files but we did't wantto push or commit them,so we can use 
+
+git restore --staged <filename>
+
+
+
+######################### restore commits ######################
+
+
+suppose we made a couple of commits on a branch and now we realize we haveto commit them on a different branch so
+we use
+
+git reset <commit-hash> 
+
+this command remove extra comments and now we are on <commit-hash> but we did't loseour code,
+our code is in workingdirectory at that point we we cut a new branch and came back to main after switch then we foundour code
+
+
+if we want to remove commits and the actualchanges in our file
+the 
+
+git reset --hard<commit-hash>
+
+############################## another technique to revert################################33333
+
+sreset changes the pointer header to specific commit it can cause conflictif we workingwith team some other
+member have some commit
+
+git reverts <commit hash> --> it  erase the work from the hashwd commit and add a new commit with previous work and now head 
+points to latest commit and we have work of commetedhash
